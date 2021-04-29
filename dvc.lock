@@ -1,8 +1,0 @@
-schema: '2.0'
-stages:
-  prepare:
-    cmd: python src/feature_selector.py
-  train:
-    cmd: python src/training.py
-  test:
-    cmd: python src/test.py
