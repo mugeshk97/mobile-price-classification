@@ -8,3 +8,7 @@ stages:
     cmd: python src/train.py
   evaluvate:
     cmd: python src/evaluate.py
+    outs:
+    - path: report/score.json
+      md5: 148ebba2434cc1ef9c21793d89fe8372
+      size: 25
