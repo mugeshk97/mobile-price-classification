@@ -1,0 +1,10 @@
+schema: '2.0'
+stages:
+  getdata:
+    cmd: python src/get_data.py
+  split:
+    cmd: python src/split.py
+  train:
+    cmd: python src/train.py
+  evaluvate:
+    cmd: python src/evaluate.py
