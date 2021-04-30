@@ -7,3 +7,6 @@ stages:
     cmd: python src/train.py
   evaluvate:
     cmd: python src/evaluate.py
+    metrics:
+    - report/score.json:
+        cache: false
