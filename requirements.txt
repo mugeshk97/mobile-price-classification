@@ -6,6 +6,7 @@ cachetools==4.2.2
 certifi==2020.12.5
 cffi==1.14.5
 chardet==4.0.0
+click==7.1.2
 colorama==0.4.4
 commonmark==0.9.1
 configobj==5.0.6
@@ -19,6 +20,7 @@ dpath==2.0.1
 dulwich==0.20.21
 dvc==2.0.18
 filelock==3.0.12
+Flask==1.1.2
 flatten-dict==0.3.0
 flufl.lock==3.2
 fsspec==0.9.0
@@ -33,13 +35,17 @@ google-auth==1.30.0
 google-auth-httplib2==0.1.0
 googleapis-common-protos==1.53.0
 grandalf==0.6
+gunicorn==20.1.0
 httplib2==0.19.1
 idna==2.10
 importlib-metadata==4.0.1
 iniconfig==1.1.1
+itsdangerous==1.1.0
+Jinja2==2.11.3
 joblib==1.0.1
 jsonpath-ng==1.5.2
 mailchecker==4.0.6
+MarkupSafe==1.1.1
 nanotime==0.5.2
 networkx==2.5.1
 numpy==1.20.2
@@ -95,6 +101,7 @@ urllib3==1.26.4
 virtualenv==20.4.4
 voluptuous==0.12.1
 wcwidth==0.2.5
+Werkzeug==1.0.1
 xmltodict==0.12.0
 zc.lockfile==2.0
 zipp==3.4.1
