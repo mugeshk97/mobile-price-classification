@@ -1,6 +1,5 @@
 schema: '2.0'
 stages:
-<<<<<<< HEAD
   getdata:
     cmd: python src/get_data.py
   split:
@@ -16,11 +15,3 @@ stages:
     - path: report/score.json
       md5: 148ebba2434cc1ef9c21793d89fe8372
       size: 25
-=======
-  selector:
-    cmd: python src/feature_selector.py
-  train:
-    cmd: python src/training.py
-  test:
-    cmd: python src/test.py
->>>>>>> main
