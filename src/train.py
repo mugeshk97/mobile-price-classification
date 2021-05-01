@@ -35,7 +35,7 @@ def model_train(config):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', help = 'config file path', default= 'src/param.yaml')
+    parser.add_argument('--config', help = 'config file path', default= 'params.yaml')
     args = parser.parse_args()
     config = load_config(args.config)
     model_train(config)
