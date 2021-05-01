@@ -6,6 +6,9 @@ stages:
     cmd: python src/split.py
   train:
     cmd: python src/train.py
+    params:
+      params.yaml:
+        DecisionTree.max_depth: 12
   evaluvate:
     cmd: python src/evaluate.py
     outs:
