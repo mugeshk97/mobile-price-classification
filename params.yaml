@@ -1,0 +1,31 @@
+data_src:
+  main_data : 'data/train.csv'
+  test_data : 'data/test.csv'
+
+features:
+  selected: ["ram", "battery_power", "px_width", "px_height", "mobile_wt",
+            "int_memory", "talk_time", "sc_w", "sc_h", "price_range"]
+  path : 'data/feature_selected.csv'
+
+DecisionTree:
+  max_depth: 12
+
+split_data:
+  xtrain : 'data/xtrain.csv'
+  xtest : 'data/xtest.csv'
+
+model_path:
+  path: 'model/model.pkl'
+
+train_schema:
+  n_columns : 10
+  target : "price_range"
+
+test_schema:
+  n_columns : 9
+  
+report:
+  path: 'report/score.json'
+
+
+
