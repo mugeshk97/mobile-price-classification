@@ -1,7 +1,23 @@
 stages:
+<<<<<<< HEAD
+  getdata:
+    cmd: python src/get_data.py
+  split:
+    cmd: python src/split.py
+  train:
+    cmd: python src/train.py
+    params:
+    - DecisionTree.max_depth
+  evaluvate:
+    cmd: python src/evaluate.py
+    metrics:
+    - report/score.json:
+        cache: false
+=======
   selector:
     cmd: python src/feature_selector.py
   train:
     cmd: python src/training.py
   test:
     cmd: python src/test.py
+>>>>>>> main

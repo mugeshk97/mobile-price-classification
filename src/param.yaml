@@ -1,6 +1,0 @@
-feature:
-  imp: ['ram', 'battery_power', 'px_width', 'px_height', 'mobile_wt',
-            'int_memory', 'talk_time', 'sc_w', 'sc_h', 'price_range']
-
-train:
-  max_depth: 12
