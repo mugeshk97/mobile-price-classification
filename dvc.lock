@@ -14,4 +14,4 @@ stages:
     outs:
     - path: report/score.json
       md5: 148ebba2434cc1ef9c21793d89fe8372
-      size: 25
+       size: 25
