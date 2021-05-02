@@ -4,27 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-_token = 'zbnQYIasFMblQXFF'
-
-# decorator for checking token
-def checkToken(func):
-    @wraps(func)
-    def check():
-        try:
-            token = request.headers['token']
-            if token == _token:
-                return func()
-            else:
-                return response("failure","unauthorized",{})
-            
-        except Exception as e:
-            return response("failure",str(e),{})
-    return check
-
-
-
 @app.route('/', methods=['POST'])
-@checkToken
 def main():
     if request.method == 'POST':
         df = request.get_json()
