@@ -16,9 +16,11 @@ eggs/
 .eggs/
 lib/
 lib64/
+notebooks
 parts/
 sdist/
 var/
+api_tester.py
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
